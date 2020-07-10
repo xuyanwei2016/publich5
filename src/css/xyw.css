@@ -1,0 +1,43 @@
+.completion .van-picker__toolbar,.changeUnit .van-picker__toolbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: .44rem;
+  background: #f6f6f6;
+}
+.completion .van-picker__toolbar button,.changeUnit .van-picker__toolbar button{
+  color: #4C7AF3;
+  font-size: .15rem;
+  font-weight: normal;
+  padding: 0 .12rem;
+  line-height: .44rem;
+}
+
+
+.completion .van-picker-column .van-picker-column__wrapper .van-picker-column__item--selected{
+  font-size: .2rem;
+  color: #000000;
+  /*height: .64rem !important;*/
+
+}
+.completion .van-picker__frame{
+  height: .64rem !important;
+}
+.completion .van-picker__frame:after{
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.v-transfer-dom .vux-popup-picker-container .vux-popup-header.vux-1px-b{background: #F6F6F6;border-bottom: none}
+.v-transfer-dom .vux-popup-picker-container .vux-popup-header.vux-1px-b:after{border-bottom: none}
+.v-transfer-dom .vux-popup-picker-container .vux-popup-header.vux-1px-b .vux-popup-header-left,.v-transfer-dom .vux-popup-picker-container .vux-popup-header.vux-1px-b .vux-popup-header-right{color:#4C7AF3;font-size:.15rem}
+.v-transfer-dom .vux-popup-dialog .vux-popup-picker-container .vux-picker .vux-flexbox.vux-flex-row .scroller-indicator{ background-color:rgba(0,0,0,0)!important;}
+.v-transfer-dom .vux-popup-dialog{background: #fff}
+/*.v-transfer-dom .vux-popup-dialog .vux-popup-picker-container .vux-picker .vux-flexbox.vux-flex-row  .scroller-item{ height: .44rem}*/
+.vux-cell-primary{
+  padding-right: .26rem;
+  margin-right: -.26rem;
+  font-size: .15rem;
+  min-width: .8rem;
+  height: .2rem;
+}
